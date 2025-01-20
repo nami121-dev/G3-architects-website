@@ -216,6 +216,8 @@ footer {
     margin: 150px auto;
     text-align: center;
     border-radius: 8px;
+    display: flex;
+    justify-content: center;
 }
 
 .footer-content {
@@ -267,7 +269,8 @@ footer {
 
     .navbar,
     .nav-links,
-    .teams {
+    .teams,
+    .experience-feature {
         flex-direction: column;
     }
 
@@ -290,6 +293,29 @@ footer {
         gap: 25px;
         justify-items: center;
     }
+    .featured-architect img{
+        width: 100%;
+    }
+    .fact-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    #experience-badge{
+        padding: 10px;
+        margin-left:20px;
+        margin-top: 20px;
+     }
+     footer{
+        
+        background: none;
+        width: 100%;
+        margin: 20px; 
+        padding: none;   
+     }
+     .footer-content{
+        margin: 10px;
+       padding: none;
+     }
+     
 
 
 }
@@ -317,11 +343,13 @@ footer {
     }
     footer{
        background: none;
-       width: 50%;
+       width: 100%;
+       margin: 20px;
       
     }
     .footer-content{
-        margin: 50px;
+        margin: 20px;
+        padding: none;
     }
     /* .fact-description{
         width: 100%
