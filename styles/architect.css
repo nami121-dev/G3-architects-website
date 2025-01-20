@@ -222,6 +222,36 @@ footer {
     padding: 32px 410px;
 }
 
+/* features you will love and enjoy related styles */
+.feature-section-title{
+    font-size: 2.81rem;
+    margin-top: 0px;
+    margin-bottom: 0px;   
+}
+#section-border{
+    border-left: 5px solid rgba(255, 144, 14, 1);
+    padding: 20px;
+}
+.card-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.card-description{
+    font-weight: 400;
+    font-size: 1rem;
+}
+.card{
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    margin-bottom: 25px;
+    
+}
+.experience-feature{
+    gap: 100px;
+}
+
 /* media query related styles */
 @media screen and (max-width:576px) {
 
